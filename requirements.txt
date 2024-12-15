@@ -1,0 +1,8 @@
+pytest
+pytest-cov
+pylint
+black
+ipython
+textblob
+wikipedia
+nltk==3.8.1
