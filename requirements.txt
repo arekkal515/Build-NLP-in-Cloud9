@@ -1,8 +1,9 @@
-pytest
-pytest-cov
-pylint
-black
 ipython
 textblob
 wikipedia
 nltk==3.8.1
+fire
+pytest
+pytest-cov
+pylint
+black

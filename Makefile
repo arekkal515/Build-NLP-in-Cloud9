@@ -3,12 +3,12 @@ install:
 		pip install -r requirements.txt
 	python -m textblob.download_corpora
 test:
-	python -m pytest -vv test_hello.py
+	python -m pytest -vv --cov=wikiphrases --cov=nlplogic test_corenlp.py
 
 format:
-	black *.py
+	black *.py nlplogic
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C *.py nlplogic/*.py
 
-all: install lint test
+all: install lint test9

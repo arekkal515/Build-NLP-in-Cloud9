@@ -8,4 +8,4 @@ blob_noun_phrases = blob.noun_phrases
 
 print(blob_noun_phrases)
 
-#blob.tags
+# blob.tags
