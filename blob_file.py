@@ -1,5 +1,4 @@
 import wikipedia
-import nltk
 from textblob import TextBlob
 
 text_blob = wikipedia.summary("Golden State Warriors")
