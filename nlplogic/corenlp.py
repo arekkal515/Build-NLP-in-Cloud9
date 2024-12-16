@@ -5,7 +5,7 @@ from textblob import TextBlob
 def search_wikipedia(name):
     """Search wikipedia"""
     print("Searching for name: {name}")
-    return wikipeda.search(name)
+    return wikipedia.search(name)
 
 
 def summarize_wikipedia(name):
